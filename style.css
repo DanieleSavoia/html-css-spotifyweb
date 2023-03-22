@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+
+.menu-container {
+    width: 100vw;
+    background-color: #141922;
+    height:10vh;
+    position: fixed;
+    padding-left: 15%;
+ }
+
+
+
+.menu-left{ 
+    width: 15vw;
+    background-color: #ff0000;
+    height: 100vh;
+    position: relative;}
+
+
+.menu {
+    height: 100vh;
+    width: 100vw;
+}
+ .container1{
+    width: 100vw;
+    height: 100vh;
+    background-color: violet;
+    flex-direction: column;
+    display: flex;
+ }
+
+
+
+ .container2{
+    width: 15vw;
+    height: 100vh;
+    position: relative;
+    background-color: red;
+    z-index: 1;
+    top: -100vh;
+ }
+
+
+.spotify-desktop {
+    height: 80vh;
+    width: 100vw;
+    padding-left: 15%;
+    margin-top: 10vh;
+    background-color: aquamarine;
+    overflow-y: scroll;
+    font-size: 40px;
+}
+.spotify-bar {
+    height: 10vh;
+    width: 100vw;
+    background-color: yellow;
+    z-index: 2;
+}
+ {}
