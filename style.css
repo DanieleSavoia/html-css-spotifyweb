@@ -123,7 +123,7 @@
 .playlist-container{
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 85px;
     padding-bottom: 3rem;
 }
 nav ul {
@@ -334,13 +334,19 @@ gap: 10px;}
 
 .card	{
 	height: 220px;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
     
 	flex: 0 0 calc((100% - (var(--cols) - 1) * var(--gap)) / var(--cols));
 }
 
 
 .card:hover {
-    opacity: 50%;
+    
   }
 .card2	{
 	height: 220px;
@@ -350,8 +356,28 @@ gap: 10px;}
 }
 
 .card2:hover {
-    background-color: #b4d0e7;
+    opacity: 50%;
   }
+
+.title-song {
+    font-size:17px;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding-top: 5px;
+    height: 20px;
+    
+    
+}
+.name-artist {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 30px;
+    
+}
+
 
 .song-background {
     width: 100%;
